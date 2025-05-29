@@ -17,7 +17,6 @@ public class WordChainSolver {
             }
         }
         String[] words = list.toArray(new String[0]);
-        //...
         StringBuilder result = getLine(words);
         System.out.println(result);
     }
